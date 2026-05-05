@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "من نحن"
+  },
+  "intro": "تقع شركة Dunhua Group Co., Ltd. في توين مون بهونغ كونغ، وهي مؤسسة استثمار وتمويل تركز على الصناعات الثقافية والإبداعية انطلاقاً من التبادل الثقافي الدولي. وتمتلك المجموعة شركات في هونغ كونغ وشينزن وبكين وقانتشو، وتعمل في إنتاج الأفلام، والفنون الأدائية، والسياحة التعليمية والعافية، والتجارة الإبداعية.",
+  "labels": {
+    "overview": "نظرة عامة",
+    "address": "العنوان",
+    "phone": "الهاتف",
+    "headOffice": "المقر الرئيسي"
+  },
+  "stats": {
+    "largePerformanceProjects": "مشروعات العروض الكبرى",
+    "theatricalFilmProduction": "إنتاجات الأفلام السينمائية",
+    "holdingSubsidiaries": "الشركات التابعة القابضة",
+    "brandTrademarks": "العلامات التجارية"
+  },
+  "locations": {
+    "hongkong": {
+      "title": "مقر هونغ كونغ",
+      "companies": [
+        "Dunhua Group Co., Ltd.",
+        "Dongjiangquan (Hong Kong) Food & Beverage Co., Ltd."
+      ],
+      "address": "المحل I، الطابق الأرضي، مركز Wai Cheong الصناعي، توين مون، هونغ كونغ"
+    },
+    "beijing": {
+      "title": "بكين",
+      "companies": [
+        "Beijing Xingmei Agency"
+      ],
+      "address": "الغرفة 600، مبنى هاي ون، رقم 1 طريق جينسونغ الجنوبي، تشاويانغ، بكين"
+    },
+    "shenzhen": {
+      "title": "شنتشن",
+      "companies": [
+        "Shenzhen Xingmei Entertainment Co., Ltd.",
+        "Shenzhen Honggu Performance Co., Ltd."
+      ],
+      "address": "الوحدة 105، المبنى 3، هايتونغجو، رقم 12 طريق تشونغتشينغ، يانتيان، شنتشن"
+    },
+    "ruijin": {
+      "title": "روي جين",
+      "companies": [
+        "Ruijin Zhufang Cultural Tourism Co., Ltd.",
+        "Zhufang Wellness Town / Qinghuaci Orchestra"
+      ],
+      "address": "بلدة تشوفانغ الحمراء للعافية، بلدة ييبينغ، روي جين، جيانغشي"
+    }
+  }
+}

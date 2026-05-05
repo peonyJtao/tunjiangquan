@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Tentang Kami"
+  },
+  "intro": "Dunhua Group Co., Ltd. yang berpusat di Tuen Mun, Hong Kong ialah institusi pelaburan dan pembiayaan yang memfokuskan industri budaya dan kreatif melalui pertukaran budaya antarabangsa. Dengan syarikat pegangan di Hong Kong, Shenzhen, Beijing dan Ganzhou, kumpulan ini berkembang dalam penerbitan filem, seni persembahan, pelancongan kesejahteraan dan pendidikan, serta perdagangan kreatif.",
+  "labels": {
+    "overview": "Gambaran umum",
+    "address": "Alamat",
+    "phone": "Telefon",
+    "headOffice": "Ibu pejabat"
+  },
+  "stats": {
+    "largePerformanceProjects": "Projek persembahan berskala besar",
+    "theatricalFilmProduction": "Penerbitan filem pawagam",
+    "holdingSubsidiaries": "Syarikat subsidiari pegangan",
+    "brandTrademarks": "Cap dagang jenama"
+  },
+  "locations": {
+    "hongkong": {
+      "title": "Ibu Pejabat Hong Kong",
+      "companies": [
+        "Dunhua Group Co., Ltd.",
+        "Dongjiangquan (Hong Kong) Food & Beverage Co., Ltd."
+      ],
+      "address": "Lot I, Tingkat Bawah, Wai Cheong Industrial Centre, Tuen Mun, Hong Kong"
+    },
+    "beijing": {
+      "title": "Beijing",
+      "companies": [
+        "Beijing Xingmei Agency"
+      ],
+      "address": "Bilik 600, Bangunan Haiwen, No.1 Jinsong South Road, Chaoyang, Beijing"
+    },
+    "shenzhen": {
+      "title": "Shenzhen",
+      "companies": [
+        "Shenzhen Xingmei Entertainment Co., Ltd.",
+        "Shenzhen Honggu Performance Co., Ltd."
+      ],
+      "address": "Unit 105, Bangunan 3, Haitongju, No.12 Zhongqing Road, Yantian, Shenzhen"
+    },
+    "ruijin": {
+      "title": "Ruijin",
+      "companies": [
+        "Ruijin Zhufang Cultural Tourism Co., Ltd.",
+        "Zhufang Wellness Town / Qinghuaci Orchestra"
+      ],
+      "address": "Pekan Kesejahteraan Merah Zhufang, Yeping Town, Ruijin, Jiangxi"
+    }
+  }
+}

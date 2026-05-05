@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Hubungi Kami",
+    "eyebrow": "Business Connect",
+    "subtitle": "Direka untuk respons yang lebih pantas dan komunikasi yang lebih jelas merentas kerjasama jenama, perolehan, dan pelaksanaan pasaran."
+  },
+  "intro": "Untuk kerjasama, pertanyaan pembekalan, atau pengembangan saluran, hubungi terus pasukan perniagaan Dunhua dan kami akan membalas dengan sokongan yang lebih tepat.",
+  "address": "Lot I, No. 5 Shek Pai Tau Road, Tuen Mun, Hong Kong",
+  "methods": {
+    "title": "Pilih cara terbaik untuk menghubungi kami",
+    "description": "Sama ada anda lebih selesa dengan e-mel, telefon, mesej segera, atau media sosial, kami menyediakan saluran yang lebih langsung untuk anda.",
+    "items": {
+      "email": {
+        "title": "E-mel Perniagaan",
+        "description": "Sesuai untuk penghantaran profil kerjasama, permintaan sebut harga, dan komunikasi rasmi.",
+        "cta": "Hantar e-mel"
+      },
+      "phone": {
+        "title": "Panggilan Telefon",
+        "description": "Sesuai untuk pengesahan pantas, susulan, dan koordinasi segera.",
+        "cta": "Hubungi sekarang"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "Sesuai untuk komunikasi masa nyata merentas wilayah dan penyelarasan projek yang lebih cepat.",
+        "cta": "Mulakan sembang"
+      },
+      "x": {
+        "title": "X / Twitter",
+        "description": "Kekal berhubung di media sosial sambil mengikuti kemas kini terkini jenama kami.",
+        "cta": "Lihat profil"
+      }
+    }
+  },
+  "details": {
+    "title": "Butiran perniagaan",
+    "description": "Jika anda memerlukan maklumat hubungan syarikat yang lebih lengkap, anda juga boleh menghubungi kami melalui saluran di bawah.",
+    "emailLabel": "E-mel",
+    "phoneLabel": "Telefon",
+    "addressLabel": "Alamat"
+  },
+  "cta": {
+    "title": "Mahukan respons pertama yang lebih pantas?",
+    "description": "Mulakan melalui WhatsApp atau X untuk hubungan awal yang lebih cepat dengan pasukan kami.",
+    "primary": "Mesej di WhatsApp",
+    "secondary": "Buka X"
+  },
+  "form": {
+    "name": "Nama",
+    "email": "E-mel",
+    "message": "Mesej",
+    "send": "Hantar Mesej",
+    "sending": "Menghantar...",
+    "success": "Mesej berjaya dihantar.",
+    "error": "Gagal menghantar mesej. Sila cuba lagi nanti."
+  }
+}

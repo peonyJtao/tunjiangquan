@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "brand": "Dunhua Group",
+    "title": "Perintis Budaya Kreatif Digital"
+  },
+  "sections": {
+    "coreIndustries": "Industri Teras",
+    "groupCompanies": "Syarikat Kumpulan",
+    "news": "Berita Terkini"
+  },
+  "core": {
+    "filmProduction": {
+      "title": "Penerbitan Filem & TV",
+      "description": "Menerbitkan filem, drama dan dokumentari merangkumi pembangunan idea, penulisan skrip, pembiayaan, bajet, penggambaran, pascaproduksi dan promosi."
+    },
+    "culturalTravel": {
+      "title": "Pelancongan Kesejahteraan & Pendidikan",
+      "description": "Menggabungkan pelancongan kesejahteraan dengan pembelajaran pengalaman untuk pelajar dan pengembara melalui aktiviti luar, kajian budaya dan program pemulihan."
+    },
+    "creativeTrade": {
+      "title": "Perdagangan Kreatif",
+      "description": "Menyediakan perkhidmatan hujung ke hujung dalam seni budaya, reka bentuk, media dan kandungan digital termasuk reka bentuk produk, pameran, operasi acara dan pengkomersialan IP."
+    },
+    "artistManagement": {
+      "title": "Pengurusan Artis",
+      "description": "Menyediakan penjenamaan artis, promosi, pengurusan persembahan komersial dan sokongan kontrak melalui kerjasama jangka panjang dengan artis utama."
+    },
+    "industrialInvestment": {
+      "title": "Pelaburan Industri",
+      "description": "Melabur dalam projek pelancongan budaya, bandar kesejahteraan dan jenama pengguna dengan fokus pada pertumbuhan mampan jangka panjang."
+    }
+  },
+  "products": {
+    "water": {
+      "title": "Air Mata Air Semula Jadi Dongjiangquan",
+      "description1": "Sempena ulang tahun ke-60 bekalan air Dongjiang ke Hong Kong pada tahun 2025, Dunhua Group melancarkan jenama Hong Kong, Dongjiangquan Natural Spring Water.",
+      "description2": "Air ini berasal dari kawasan perlindungan di pertemuan hulu Sungai Dongjiang dan Ganjiang di selatan Jiangxi, diambil dari rekahan granit dalam dan kaya secara semula jadi dengan strontium serta asid metasilikat.",
+      "description3": "Disahkan oleh skim Hong Kong Q-Mark, ia sesuai untuk diminum setiap hari, membancuh teh, membuat sup dan memasak.",
+      "feature1": "Diambil 280 meter di bawah tanah di selatan Jiangxi",
+      "feature2": "Mengandungi strontium dan asid metasilikat secara semula jadi",
+      "feature3": "Disahkan oleh skim kualiti Hong Kong Q-Mark"
+    },
+    "byb": {
+      "title": "Bybanx BYB",
+      "description1": "BYB ialah ekosistem aset digital pelbagai fungsi yang menghubungkan aset dunia nyata dengan senario aplikasi Web3 melalui token BYB, NFT utiliti dan inisiatif budaya-hiburan.",
+      "description2": "Berpangkalan secara strategik di Hong Kong, platform ini menekankan pematuhan, ketelusan dan operasi mampan dengan potensi jenama jangka panjang yang kukuh.",
+      "feature1": "Persekitaran dagangan yang selamat dan boleh dipercayai",
+      "feature2": "Analisis pasaran dan ramalan masa nyata",
+      "feature3": "Komuniti pelabur yang aktif",
+      "feature4": "Pendidikan blockchain profesional"
+    }
+  }
+}

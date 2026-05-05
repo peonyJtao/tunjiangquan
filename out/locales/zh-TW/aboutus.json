@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "關於我們"
+  },
+  "intro": "敦華集團有限公司位於香港屯門，是以國際文化交流為契機、專注服務文化創意產業的投融資機構。旗下控股公司分布於香港、深圳、北京、贛州等地，圍繞影視出品、演藝製作、康旅研學與文創商貿等核心方向發展，已投資與承辦數百場大型演出、出品多部院線電影，並營運文旅康養小鎮與「東江泉」飲用水品牌。",
+  "labels": {
+    "overview": "概覽",
+    "address": "地址",
+    "phone": "電話",
+    "headOffice": "總部"
+  },
+  "stats": {
+    "largePerformanceProjects": "大型演出項目",
+    "theatricalFilmProduction": "院線電影出品",
+    "holdingSubsidiaries": "控股子公司",
+    "brandTrademarks": "品牌商標"
+  },
+  "locations": {
+    "hongkong": {
+      "title": "香港總部",
+      "companies": [
+        "敦華集團有限公司",
+        "東江泉(香港)食品飲料有限公司"
+      ],
+      "address": "香港屯門區偉昌工業中心地下I舖"
+    },
+    "beijing": {
+      "title": "北京",
+      "companies": [
+        "北京星媒經紀"
+      ],
+      "address": "北京市朝陽區勁松南路1號海文大廈600"
+    },
+    "shenzhen": {
+      "title": "深圳",
+      "companies": [
+        "深圳星媒娛樂有限公司",
+        "深圳市紅鼓演出有限公司"
+      ],
+      "address": "深圳市鹽田區中青路12號海桐居3棟105"
+    },
+    "ruijin": {
+      "title": "瑞金",
+      "companies": [
+        "瑞金市朱坊文化旅遊有限公司",
+        "瑞金朱坊康養小鎮 / 青花瓷樂團"
+      ],
+      "address": "江西省瑞金市葉坪鎮朱坊村紅色康養小鎮"
+    }
+  }
+}
