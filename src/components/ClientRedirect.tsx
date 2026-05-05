@@ -16,9 +16,8 @@ const ClientRedirect = ({ to }: ClientRedirectProps) => {
   return (
     <>
       <Head>
-        <meta httpEquiv="refresh" content={`0;url=${to}`} />
+        {/* <meta httpEquiv="refresh" content={`0;url=${to}`} /> */}
       </Head>
-      <p>Redirecting...</p>
     </>
   );
 };
