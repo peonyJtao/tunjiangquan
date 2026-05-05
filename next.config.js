@@ -6,6 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/tunjiangquan',
+  assetPrefix: '/tunjiangquan/',
 };
 
 module.exports = nextConfig;
