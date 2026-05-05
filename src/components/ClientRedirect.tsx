@@ -1,5 +1,6 @@
-import Head from 'next/head';
-import { useRouter } from 'next/router';
+'use client';
+
+import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 
 interface ClientRedirectProps {
@@ -13,13 +14,7 @@ const ClientRedirect = ({ to }: ClientRedirectProps) => {
     router.replace(to);
   }, [router, to]);
 
-  return (
-    <>
-      <Head>
-        {/* <meta httpEquiv="refresh" content={`0;url=${to}`} /> */}
-      </Head>
-    </>
-  );
+  return null;
 };
 
 export default ClientRedirect;
