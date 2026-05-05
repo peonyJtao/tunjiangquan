@@ -12,6 +12,8 @@ import '../src/styles/globals.css';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import "../public/font/iconfont.css";
+
+
 import { getDirection, getLocaleFromPath, resolveLocale, TranslationMessages } from '@/src/lib/i18n';
 import { I18nProvider } from '@/src/lib/i18n.context';
 
