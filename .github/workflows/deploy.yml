@@ -14,16 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      
+      - name: Setup Node.js 23
+        uses: actions/setup-node@v4
         with:
-          node-version: '23'
+          node-version: '23.0.0'
           cache: 'yarn'
       
       - name: Clear yarn cache
         run: yarn cache clean
       
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
       
       - name: Build
         run: yarn build
@@ -40,6 +42,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
