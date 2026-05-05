@@ -1,0 +1,14 @@
+{
+  "slug": "water-mineral-profile-guide",
+  "publishedAt": "2026-04-17",
+  "title": "TDS and pH: Key Indicators for Understanding Mineral Composition in Drinking Water",
+  "category": "Research",
+  "date": "April 17, 2026",
+  "excerpt": "A quick guide to TDS, pH, taste and stability in drinking water.",
+  "coverImage": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?q=80&w=1600&auto=format&fit=crop",
+  "author": {
+    "name": "Research Desk",
+    "avatar": "/images/logo.png"
+  },
+  "content": "<p>TDS and pH are two of the most common parameters used to understand water quality, but they describe different dimensions.</p><h2>TDS</h2><p>TDS stands for total dissolved solids and is often used to describe the overall concentration of minerals and other dissolved matter in water. A suitable TDS range has a direct impact on taste and experience.</p><h2>pH</h2><p>pH reflects the acidity or alkalinity of water. Different pH ranges can affect taste, equipment compatibility and storage stability.</p><ul><li>TDS focuses more on mineral concentration.</li><li>pH focuses more on chemical characteristics.</li><li>Only by looking at both can you understand water more completely.</li></ul>"
+}

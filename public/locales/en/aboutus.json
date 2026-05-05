@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "About Us"
+  },
+  "intro": "Dunhua Group Limited, located in Tuen Mun District, Hong Kong, is an investment and financing institution focusing on serving the cultural and creative industries, taking international cultural exchange as its opportunity. Its holding companies are located in Hong Kong, Shenzhen, Beijing, Ganzhou, and other places. The company focuses on four core cultural industries: film and television production, performing arts production, health tourism and study tours, and cultural and creative trade. It has successfully invested in, organized, and undertaken hundreds of large-scale performance projects, produced and filmed several theatrical films, invested in and operated cultural tourism and health towns, and established the \"Dongjiangquan\" drinking water brand.",
+  "labels": {
+    "overview": "Overview",
+    "address": "Address",
+    "phone": "Phone",
+    "headOffice": "Head Office"
+  },
+  "stats": {
+    "largePerformanceProjects": "Large-scale performance projects",
+    "theatricalFilmProduction": "Theatrical film production",
+    "holdingSubsidiaries": "Holding subsidiaries",
+    "brandTrademarks": "Brand trademarks"
+  },
+  "locations": {
+    "hongkong": {
+      "title": "Hong Kong Headquarters",
+      "companies": [
+        "Dunhua Group Limited",
+        "Dongjiangquan (Hong Kong) Food & Beverage Co., Ltd."
+      ],
+      "address": "Shop I, G/F, Wai Cheong Industrial Centre, Tuen Mun District, Hong Kong"
+    },
+    "beijing": {
+      "title": "Beijing",
+      "companies": [
+        "Beijing Xingmei Brokerage"
+      ],
+      "address": "Room 600, Haiwen Building, No. 1, Jinsong South Road, Chaoyang District, Beijing"
+    },
+    "shenzhen": {
+      "title": "Shenzhen",
+      "companies": [
+        "Shenzhen Xingmei Entertainment Co., Ltd.",
+        "Shenzhen Honggu Performing Arts Co., Ltd."
+      ],
+      "address": "Room 105, Building 3, Haitongju, No. 12, Zhongqing Road, Yantian District, Shenzhen"
+    },
+    "ruijin": {
+      "title": "Ruijin",
+      "companies": [
+        "Ruijin Zhufang Cultural Tourism Co., Ltd.",
+        "Ruijin Zhufang Health and Wellness Town / Qinghuaci Orchestra"
+      ],
+      "address": "Red Health and Wellness Town, Zhufang Village, Yeping Town, Ruijin City, Jiangxi Province"
+    }
+  }
+}

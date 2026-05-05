@@ -1,0 +1,12 @@
+{
+  "brand": "Dunhua Group",
+  "nav": {
+    "home": "首页",
+    "news": "Berita",
+    "aboutus": "Tentang Kami",
+    "contact": "Hubungi Kami"
+  },
+  "footer": {
+    "copyright": "Hak cipta © 2026 Dunhua Group. Semua hak terpelihara."
+  }
+}

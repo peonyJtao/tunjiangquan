@@ -1,0 +1,12 @@
+{
+  "brand": "Dunhua Group",
+  "nav": {
+    "home": "首页",
+    "news": "News",
+    "aboutus": "About Us",
+    "contact": "Contact"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 Dunhua Group. All rights reserved."
+  }
+}

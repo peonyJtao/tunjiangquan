@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "เกี่ยวกับเรา"
+  },
+  "intro": "Dunhua Group Co., Ltd. ตั้งอยู่ที่ถุนเหมิน ฮ่องกง เป็นสถาบันการลงทุนและการเงินที่มุ่งเน้นอุตสาหกรรมวัฒนธรรมและความคิดสร้างสรรค์ผ่านการแลกเปลี่ยนวัฒนธรรมนานาชาติ บริษัทในเครือกระจายอยู่ในฮ่องกง เซินเจิ้น ปักกิ่ง และก้านโจว โดยดำเนินธุรกิจด้านการผลิตภาพยนตร์ ศิลปะการแสดง การท่องเที่ยวเชิงสุขภาวะและการเรียนรู้ รวมถึงพาณิชย์สร้างสรรค์.",
+  "labels": {
+    "overview": "ภาพรวม",
+    "address": "ที่อยู่",
+    "phone": "โทรศัพท์",
+    "headOffice": "สำนักงานใหญ่"
+  },
+  "stats": {
+    "largePerformanceProjects": "โครงการการแสดงขนาดใหญ่",
+    "theatricalFilmProduction": "ผลงานภาพยนตร์โรงภาพยนตร์",
+    "holdingSubsidiaries": "บริษัทย่อยที่ถือหุ้น",
+    "brandTrademarks": "เครื่องหมายการค้าแบรนด์"
+  },
+  "locations": {
+    "hongkong": {
+      "title": "สำนักงานใหญ่ฮ่องกง",
+      "companies": [
+        "Dunhua Group Co., Ltd.",
+        "Dongjiangquan (Hong Kong) Food & Beverage Co., Ltd."
+      ],
+      "address": "ร้าน I ชั้นล่าง Wai Cheong Industrial Centre, Tuen Mun, Hong Kong"
+    },
+    "beijing": {
+      "title": "ปักกิ่ง",
+      "companies": [
+        "Beijing Xingmei Agency"
+      ],
+      "address": "ห้อง 600 อาคาร Haiwen เลขที่ 1 ถนน Jinsong South เขตเฉาหยาง ปักกิ่ง"
+    },
+    "shenzhen": {
+      "title": "เซินเจิ้น",
+      "companies": [
+        "Shenzhen Xingmei Entertainment Co., Ltd.",
+        "Shenzhen Honggu Performance Co., Ltd."
+      ],
+      "address": "ยูนิต 105 อาคาร 3 Haitongju เลขที่ 12 ถนน Zhongqing เขต Yantian เซินเจิ้น"
+    },
+    "ruijin": {
+      "title": "รุ่ยจิน",
+      "companies": [
+        "Ruijin Zhufang Cultural Tourism Co., Ltd.",
+        "Zhufang Wellness Town / Qinghuaci Orchestra"
+      ],
+      "address": "เมืองสุขภาวะสีแดง Zhufang ตำบล Yeping เมือง Ruijin มณฑลเจียงซี"
+    }
+  }
+}

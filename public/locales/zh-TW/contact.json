@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "聯絡我們",
+    "eyebrow": "Business Connect",
+    "subtitle": "以更快速的回覆與更清晰的溝通節奏，支援品牌合作、採購規劃與市場落地。"
+  },
+  "intro": "無論是合作洽談、採購需求或渠道拓展，歡迎直接聯絡東江泉商務團隊，我們會盡快提供專屬支援。",
+  "address": "香港屯門石排頭路5號地下I舖",
+  "methods": {
+    "title": "選擇最適合你的聯絡方式",
+    "description": "無論你偏好電子郵件、電話、即時通訊或社群平台，我們都已準備好更直接的聯絡入口。",
+    "items": {
+      "email": {
+        "title": "商務郵箱",
+        "description": "適合傳送合作資料、報價需求與正式商務諮詢。",
+        "cta": "發送郵件"
+      },
+      "phone": {
+        "title": "電話聯絡",
+        "description": "適合需要快速確認合作資訊或即時溝通的情境。",
+        "cta": "立即致電"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "適合跨地區即時溝通，快速同步合作進度與需求。",
+        "cta": "立即對話"
+      },
+      "x": {
+        "title": "X / Twitter",
+        "description": "透過社群平台保持連結，追蹤品牌動態並發起聯絡。",
+        "cta": "查看主頁"
+      }
+    }
+  },
+  "details": {
+    "title": "聯絡資訊",
+    "description": "如果你需要更完整的商務資料，也可以直接透過以下方式與我們取得聯繫。",
+    "emailLabel": "電子郵件",
+    "phoneLabel": "電話",
+    "addressLabel": "地址"
+  },
+  "cta": {
+    "title": "想更快建立聯繫？",
+    "description": "優先使用 WhatsApp 或 X，可以更高效地開啟第一輪溝通。",
+    "primary": "WhatsApp 聯絡",
+    "secondary": "查看 X"
+  },
+  "form": {
+    "name": "姓名",
+    "email": "電子郵件",
+    "message": "留言內容",
+    "send": "送出訊息",
+    "sending": "發送中...",
+    "success": "訊息已成功送出。",
+    "error": "訊息送出失敗，請稍後再試。"
+  }
+}

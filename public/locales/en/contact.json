@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Contact Us",
+    "eyebrow": "Business Connect",
+    "subtitle": "Built for faster replies and clearer communication across brand collaboration, procurement planning, and market execution."
+  },
+  "intro": "For partnerships, sourcing inquiries, or channel expansion, reach out directly to the Dunhua business team and we will respond with tailored support.",
+  "address": "Shop I, No. 5 Shek Pai Tau Road, Tuen Mun, Hong Kong",
+  "methods": {
+    "title": "Choose the best way to reach us",
+    "description": "Whether you prefer email, phone, instant messaging, or social media, we have a direct channel ready for you.",
+    "items": {
+      "email": {
+        "title": "Business Email",
+        "description": "Best for partnership decks, quotation requests, and formal business communication.",
+        "cta": "Send an email"
+      },
+      "phone": {
+        "title": "Phone Call",
+        "description": "Best for quick confirmations, follow-ups, and urgent coordination.",
+        "cta": "Call now"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "description": "Best for real-time cross-region messaging and faster project alignment.",
+        "cta": "Start chatting"
+      },
+      "x": {
+        "title": "X / Twitter",
+        "description": "Stay connected on social and reach out while following the latest brand updates.",
+        "cta": "Visit profile"
+      }
+    }
+  },
+  "details": {
+    "title": "Business details",
+    "description": "If you need complete company contact details, you can also reach us through the channels below.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "addressLabel": "Address"
+  },
+  "cta": {
+    "title": "Need a faster first reply?",
+    "description": "Start with WhatsApp or X for a quicker first touchpoint with our team.",
+    "primary": "Message on WhatsApp",
+    "secondary": "Open X"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully.",
+    "error": "Failed to send message. Please try again later."
+  }
+}

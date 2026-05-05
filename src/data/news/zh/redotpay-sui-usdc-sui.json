@@ -1,0 +1,14 @@
+{
+  "slug": "redotpay-sui-usdc-sui",
+  "publishedAt": "2026-04-21",
+  "title": "RedotPay 整合 SUI 与 USDC-Sui，带来更顺畅的全球稳定币支付体验",
+  "category": "博客",
+  "date": "2026年4月21日",
+  "excerpt": "RedotPay 进一步扩展稳定币支付网络，支持 SUI 与 USDC-Sui。",
+  "coverImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop",
+  "author": {
+    "name": "敦华集团",
+    "avatar": "/images/logo.png"
+  },
+  "content": "<p>主要收获</p><ul><li>RedotPay 是较早支持 Sui 原生 USDC 的加密卡提供商之一，此次整合进一步强化了稳定币支付能力。</li><li>全球 100 多个国家和地区的用户可以通过 RedotPay 使用 SUI 和 USDC-Sui 进入更直接的支付场景。</li><li>用户可将 SUI、USDC-Sui 与其他受支持资产发送至钱包，在持有与消费数字资产之间建立更顺畅的路径。</li></ul><h2>整合意义</h2><p>2026 年 4 月 20 日晚 9 点（美国东部时间），RedotPay 宣布扩展其稳定币支付基础设施，并接入 <strong>SUI</strong> 与 <strong>USDC-Sui</strong>，以支持更多实时支付场景。</p><p>这一能力扩展提升了链上资产与支付场景之间的连接效率，让用户在跨境转账、日常消费与全球结算中获得更低摩擦的体验。</p><figure><img src=\"https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=1400&auto=format&fit=crop\" alt=\"Global payment\" /><figcaption>稳定币支付正在从加密原生用户走向更广泛的全球消费场景。</figcaption></figure><h2>对用户意味着什么</h2><p>通过 RedotPay 应用，用户可以更直接地管理链上资产并完成支付。整合完成后，Sui 生态用户能够更自然地进入消费场景，而支付用户也能更快接触到基于稳定币的跨境结算能力。</p><blockquote>稳定币支付的关键不只是可用，而是要足够顺滑，能够真正接入现实世界的消费链路。</blockquote><p>更多信息可查看 <a href=\"https://sui.io\" target=\"_blank\" rel=\"noreferrer\">Sui 生态</a> 的最新进展。</p>"
+}

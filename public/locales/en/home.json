@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "brand": "Dunhua Group",
+    "title": "A Pioneer in Digital Cultural Creativity"
+  },
+  "sections": {
+    "coreIndustries": "Core Industries",
+    "groupCompanies": "Group Companies",
+    "news": "Latest News"
+  },
+  "core": {
+    "filmProduction": {
+      "title": "Film & TV Production",
+      "description": "Produce films, series and documentaries across concept development, scriptwriting, fundraising, budgeting, filming, post-production and distribution."
+    },
+    "culturalTravel": {
+      "title": "Wellness Travel & Study",
+      "description": "Blend wellness tourism with experiential learning through outdoor activities, cultural study and restorative programs for students and travelers."
+    },
+    "creativeTrade": {
+      "title": "Creative Commerce",
+      "description": "Serve cultural art, design, media and digital content with integrated planning, exhibitions, creative operations and IP commercialization."
+    },
+    "artistManagement": {
+      "title": "Artist Management",
+      "description": "Provide artist branding, publicity, commercial booking and contract support through long-term collaboration with frontline performers."
+    },
+    "industrialInvestment": {
+      "title": "Industrial Investment",
+      "description": "Invest in cultural tourism, wellness towns and consumer brands with a long-term view on sustainable growth and diversified cultural business."
+    }
+  },
+  "products": {
+    "water": {
+      "title": "Dongjiangquan Natural Spring Water",
+      "description1": "To mark the 60th anniversary of Dongjiang water supply to Hong Kong in 2025, Dunhua Group launched the Hong Kong brand Dongjiangquan Natural Spring Water.",
+      "description2": "The water comes from the protected confluence of the Dongjiang and Ganjiang headwaters in southern Jiangxi, drawn from deep granite fissures and naturally rich in strontium and metasilicic acid.",
+      "description3": "Certified by the Hong Kong Q-Mark scheme, it is ideal for daily drinking, tea brewing, soups and cooking.",
+      "feature1": "Sourced 280 meters underground in southern Jiangxi",
+      "feature2": "Naturally contains strontium and metasilicic acid",
+      "feature3": "Certified by the Hong Kong Q-Mark quality scheme"
+    },
+    "byb": {
+      "title": "Bybanx BYB",
+      "description1": "BYB is a multifunctional digital asset ecosystem that connects real-world assets with Web3 application scenarios through the BYB token, utility NFTs and cultural-entertainment initiatives.",
+      "description2": "With Hong Kong as its strategic base, the platform is positioned for compliant, transparent and sustainable operation with strong long-term brand potential.",
+      "feature1": "Secure and reliable trading environment",
+      "feature2": "Real-time market analysis and outlook",
+      "feature3": "An active investor community",
+      "feature4": "Professional blockchain education"
+    }
+  }
+}
