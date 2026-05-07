@@ -5,6 +5,7 @@ import { pxToRem } from '@/utils/fontUtils';
 import { NewsArticle } from '@/src/lib/news';
 import { buildLocalePath } from '@/src/lib/i18n';
 import { useLocale } from '@/src/lib/i18n.context';
+import { assetUrl } from '@/src/lib/assets';
 
 interface NewsCardProps {
   article: NewsArticle;
@@ -39,7 +40,7 @@ const NewsCard = ({ article, index = 0 }: NewsCardProps) => {
             <CardMedia
               component="img"
               height="300"
-              image={article.coverImage}
+              image={assetUrl(article.coverImage)}
               alt={article.title}
               sx={{
                 transition: 'transform 0.8s cubic-bezier(0.16, 1, 0.3, 1)',

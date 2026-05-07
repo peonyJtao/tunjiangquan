@@ -1,11 +1,12 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
 import createEmotionServer from '@emotion/server/create-instance';
 import createEmotionCache from '../src/lib/createEmotionCache';
+import { defaultLocale, getDirection, resolveLocale } from '@/src/lib/i18n';
 
 export default class MyDocument extends Document {
   render() {
-    const { locale } = this.props.__NEXT_DATA__;
-    const direction = locale === 'ar' ? 'rtl' : 'ltr';
+    const locale = resolveLocale(this.props.__NEXT_DATA__.locale || defaultLocale);
+    const direction = getDirection(locale);
 
     return (
       <Html lang={locale} dir={direction}>
@@ -31,8 +32,8 @@ export default class MyDocument extends Document {
 // it's compatible with static-site generation (SSG).
 MyDocument.getInitialProps = async (ctx: DocumentContext) => {
   const originalRenderPage = ctx.renderPage;
-  const locale = ctx.locale || 'en';
-  const cache = createEmotionCache(locale === 'ar' ? 'rtl' : 'ltr');
+  const locale = resolveLocale(ctx.locale || defaultLocale);
+  const cache = createEmotionCache(getDirection(locale));
   const { extractCriticalToChunks } = createEmotionServer(cache);
 
   ctx.renderPage = () =>

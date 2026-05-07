@@ -1,53 +1,116 @@
 {
+  "meta": {
+    "title": "Dongjiangquan"
+  },
   "hero": {
-    "brand": "Dunhua Group",
-    "title": "A Pioneer in Digital Cultural Creativity"
+    "eyebrow": "Hong Kong Premium Water",
+    "lines": ["Dongjiangquan", "Connected by Water"],
+    "description": "A Hong Kong premium drinking water brand created in tribute to the city's Dongjiang water memory.",
+    "secondary": "A long-term expression of source respect, purity, and quality you can feel in every bottle.",
+    "primaryCta": "Business Enquiries",
+    "secondaryCta": "Our Story"
   },
-  "sections": {
-    "coreIndustries": "Core Industries",
-    "groupCompanies": "Group Companies",
-    "news": "Latest News"
+  "origin": {
+    "eyebrow": "Brand Origin",
+    "title": "More than a name",
+    "body1": "For Hong Kong, Dongjiang water supply is part of a real and lasting civic memory. For Dongjiangquan, Dongjiang is not only the name of a source, but a reminder of origin, trust, and connection.",
+    "body2": "We chose the name to honour that bond between Hong Kong and Dongjiang water supply, and to turn the idea of remembering the source into a premium drinking water brand that can be seen, chosen, and trusted over time.",
+    "highlights": ["A tribute to Dongjiang supply", "A continuous connection", "A brand built on origin"]
   },
-  "core": {
-    "filmProduction": {
-      "title": "Film & TV Production",
-      "description": "Produce films, series and documentaries across concept development, scriptwriting, fundraising, budgeting, filming, post-production and distribution."
-    },
-    "culturalTravel": {
-      "title": "Wellness Travel & Study",
-      "description": "Blend wellness tourism with experiential learning through outdoor activities, cultural study and restorative programs for students and travelers."
-    },
-    "creativeTrade": {
-      "title": "Creative Commerce",
-      "description": "Serve cultural art, design, media and digital content with integrated planning, exhibitions, creative operations and IP commercialization."
-    },
-    "artistManagement": {
-      "title": "Artist Management",
-      "description": "Provide artist branding, publicity, commercial booking and contract support through long-term collaboration with frontline performers."
-    },
-    "industrialInvestment": {
-      "title": "Industrial Investment",
-      "description": "Invest in cultural tourism, wellness towns and consumer brands with a long-term view on sustainable growth and diversified cultural business."
-    }
+  "quality": {
+    "eyebrow": "Quality",
+    "title": "Premium means proven",
+    "description": "Metasilicic acid, heavy metal control, and microbiological safety define the purity and consistency of this water.",
+    "metrics": [
+      {
+        "value": "8.787 mg/L",
+        "label": "Metasilicic Acid",
+        "description": "A clearer natural mineral profile and a more refined drinking experience."
+      },
+      {
+        "value": "Near Undetected",
+        "label": "Heavy Metals",
+        "description": "Lead, mercury, cadmium, and other indicators remain far below the standard limit."
+      },
+      {
+        "value": "Well Below Standard",
+        "label": "Microbiology",
+        "description": "A stable record of purity, safety, and consistency over time."
+      }
+    ]
   },
-  "products": {
-    "water": {
-      "title": "Dongjiangquan Natural Spring Water",
-      "description1": "To mark the 60th anniversary of Dongjiang water supply to Hong Kong in 2025, Dunhua Group launched the Hong Kong brand Dongjiangquan Natural Spring Water.",
-      "description2": "The water comes from the protected confluence of the Dongjiang and Ganjiang headwaters in southern Jiangxi, drawn from deep granite fissures and naturally rich in strontium and metasilicic acid.",
-      "description3": "Certified by the Hong Kong Q-Mark scheme, it is ideal for daily drinking, tea brewing, soups and cooking.",
-      "feature1": "Sourced 280 meters underground in southern Jiangxi",
-      "feature2": "Naturally contains strontium and metasilicic acid",
-      "feature3": "Certified by the Hong Kong Q-Mark quality scheme"
-    },
-    "byb": {
-      "title": "Bybanx BYB",
-      "description1": "BYB is a multifunctional digital asset ecosystem that connects real-world assets with Web3 application scenarios through the BYB token, utility NFTs and cultural-entertainment initiatives.",
-      "description2": "With Hong Kong as its strategic base, the platform is positioned for compliant, transparent and sustainable operation with strong long-term brand potential.",
-      "feature1": "Secure and reliable trading environment",
-      "feature2": "Real-time market analysis and outlook",
-      "feature3": "An active investor community",
-      "feature4": "Professional blockchain education"
-    }
+  "certifications": {
+    "eyebrow": "Certifications",
+    "title": "Verified by standards. Trusted over time.",
+    "description": "From Hong Kong-recognised marks to international quality systems, each standard strengthens brand trust.",
+    "items": [
+      {
+        "title": "Hong Kong Tested Mark",
+        "description": "A clearer and more transparent basis for trust through Hong Kong-recognised quality standards."
+      },
+      {
+        "title": "ISO 22000 & HACCP",
+        "description": "Consistent food safety management and production control from source to output."
+      },
+      {
+        "title": "Halal Certification",
+        "description": "A stronger foundation for wider market access and broader consumption scenarios."
+      }
+    ]
+  },
+  "product": {
+    "eyebrow": "Product",
+    "title": "Sized for different moments",
+    "description": "From premium hospitality to everyday retail, each format is made for a different rhythm of use.",
+    "items": [
+      {
+        "title": "350ml",
+        "name": "Hospitality & Display",
+        "description": "Designed for refined presentation, premium reception, and meeting-room service."
+      },
+      {
+        "title": "500ml",
+        "name": "Retail & Business Use",
+        "description": "A classic format for broader daily consumption and general business scenarios."
+      },
+      {
+        "title": "550ml",
+        "name": "Travel & Office Use",
+        "description": "A more generous format for work, mobility, and longer drinking moments."
+      },
+      {
+        "title": "3.8L",
+        "name": "Home & Office Supply",
+        "description": "Built for households and workplaces that need a more continuous supply."
+      }
+    ]
+  },
+  "market": {
+    "eyebrow": "Market Presence",
+    "title": "From Hong Kong to a wider market",
+    "description": "Dongjiangquan has entered local retail scenes in Hong Kong and continues to extend through years of export experience and multiple overseas markets.",
+    "proofs": [
+      {
+        "title": "Hong Kong First",
+        "description": "A clear expression rooted in the local market."
+      },
+      {
+        "title": "International Reach",
+        "description": "Expanding into more global markets."
+      },
+      {
+        "title": "Long-Term Presence",
+        "description": "Building brand recognition over time."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bring premium drinking water into more valuable settings",
+    "description": "If you are looking for a drinking water brand with Hong Kong identity, premium positioning, and international cooperation potential, we invite you to connect with our team.",
+    "button": "Contact Our Team"
+  },
+  "news": {
+    "title": "Source and brand updates",
+    "description": "Follow Dongjiangquan through source, quality, and market expression."
   }
 }

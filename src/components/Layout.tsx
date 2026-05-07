@@ -25,6 +25,7 @@ import FaceBook from './Facebook';
 import Head from 'next/head';
 import { buildLocalePath, getLocaleFromPath, normalizeRoutePath } from '@/src/lib/i18n';
 import { useTranslation } from '@/src/lib/i18n.context';
+import { assetUrl } from '@/src/lib/assets';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -107,7 +108,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             },
           }}
         >
-          <img src="/images/logo.png" alt={t('brand')} />
+          <img src={assetUrl('/images/logo.png')} alt={t('brand')} />
           <Tiny>{t('brand')}</Tiny>
         </FlexAlign>
         <Close />
@@ -149,7 +150,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Head>
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href={assetUrl('/images/favicon.ico')} />
       </Head>
       <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <motion.header
@@ -171,7 +172,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             sx={{
               borderRadius: pxToRem(32),
               maxWidth: `${pxToRem(maxWidth)} !important`,
-              bgcolor: 'rgba(255, 255, 255, 0.01)',
+              bgcolor: 'rgba(255, 255, 255, 0.05)',
               backdropFilter: 'blur(4px)',
               WebkitBackdropFilter: 'blur(4px)',
               borderBottom: '1px solid rgba(255, 255, 255, 0.3)',
@@ -195,12 +196,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                     height: '100%',
                     cursor: 'pointer',
                     img: {
-                      width: pxToRem(84),
+                      width: pxToRem(64),
                     },
                   }}
                   onClick={() => router.push(homePath)}
                 >
-                  <img src="/images/logo.png" alt={t('brand')} />
+                  <img src={assetUrl('/images/logo.png')} alt={t('brand')} />
                 </Box>
 
                 <Box sx={{ height: '100%', display: { xs: 'none', sm: 'flex' }, alignItems: 'center' }}>
@@ -280,7 +281,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                   },
                 }}
               >
-                <img src="/images/logo.png" alt={t('brand')} />
+                <img src={assetUrl('/images/logo.png')} alt={t('brand')} />
                 <Tiny>{t('brand')}</Tiny>
               </FlexAlign>
               <FlexAlign sx={{ gap: pxToRem(12) }}>

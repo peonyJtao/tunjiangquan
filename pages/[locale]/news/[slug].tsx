@@ -4,6 +4,7 @@ import NewsArticleTemplate from '@/src/components/news/NewsArticleTemplate';
 import { getNewsBySlug, getNewsSlugs, NewsArticle } from '@/src/lib/news';
 import { getI18nProps } from '@/src/lib/i18n.server';
 import { buildLocalePath, supportedLocales, TranslationMessages } from '@/src/lib/i18n';
+import { assetUrl } from '@/src/lib/assets';
 
 interface NewsDetailPageProps {
   article: NewsArticle;
@@ -11,9 +12,9 @@ interface NewsDetailPageProps {
   messages: TranslationMessages;
 }
 
-const siteName = 'Dunhua Group';
-const siteUrl = 'https://www.dunhuagroup.com';
-const fallbackImage = '/images/logo.png';
+const siteName = '东江泉';
+const siteUrl = 'https://tungkongchuen.com';
+const fallbackImage = assetUrl('/images/logo.png');
 
 const stripHtml = (html: string) => html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 
@@ -40,7 +41,7 @@ const NewsDetailPage: NextPage<NewsDetailPageProps> = ({ article, locale }) => {
         <meta name="twitter:description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href={assetUrl('/images/favicon.ico')} />
       </Head>
       <NewsArticleTemplate article={article} />
     </>

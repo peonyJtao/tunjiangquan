@@ -9,6 +9,7 @@ import { H4, Tiny } from '../Typography';
 import FlexAlign from '../flexbox/FlexAlign';
 import Facebook from '../Facebook';
 import { useTranslation } from '@/src/lib/i18n.context';
+import { assetUrl } from '@/src/lib/assets';
 
 const Share = (props: SvgIconProps) => {
   return (
@@ -102,7 +103,7 @@ const NewsArticleTemplate = ({ article }: NewsArticleTemplateProps) => {
                 },
               }}
             >
-              <img src={article.author.avatar} alt={article.author.name} />
+              <img src={assetUrl(article.author.avatar)} alt={article.author.name} />
               <Tiny>{article.author.name}</Tiny>
             </FlexAlign>
             <NewsRichText content={article.content} />

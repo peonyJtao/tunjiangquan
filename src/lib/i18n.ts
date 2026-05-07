@@ -1,10 +1,17 @@
-import React from 'react';
-import { AppLocale, languageOptions } from '@/constants/constant';
+/*
+ * @Date: 2026-05-02 13:33:42
+ * @LastEditors: peonyJtao
+ * @LastEditTime: 2026-05-05 22:30:35
+ * @FilePath: /东江泉/src/lib/i18n.ts
+ * @description:
+ */
+import type { AppLocale } from '@/constants/constant';
+const { defaultLocale: sharedDefaultLocale, locales } = require('../../i18n.shared');
 
 export { type AppLocale } from '@/constants/constant';
 
-export const defaultLocale: AppLocale = 'en';
-export const supportedLocales = [...languageOptions] as AppLocale[];
+export const defaultLocale = sharedDefaultLocale as AppLocale;
+export const supportedLocales = [...locales] as AppLocale[];
 export const translationNamespaces = ['common', 'layout', 'home', 'aboutus', 'contact', 'news'] as const;
 
 export type TranslationNamespace = (typeof translationNamespaces)[number];

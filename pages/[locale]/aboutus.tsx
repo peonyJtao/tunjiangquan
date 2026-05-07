@@ -10,9 +10,10 @@ import Head from 'next/head';
 import { getI18nProps } from '@/src/lib/i18n.server';
 import { supportedLocales, TranslationMessages } from '@/src/lib/i18n';
 import { useTranslation } from '@/src/lib/i18n.context';
+import { assetUrl } from '@/src/lib/assets';
 import FlexAlign from '@/components/flexbox/FlexAlign';
 
-const HERO_HEIGHT = 680;
+const HERO_HEIGHT = 460;
 
 interface AboutUsProps {
   locale: string;
@@ -57,7 +58,7 @@ const AboutUs: NextPage<AboutUsProps> = () => {
           sx={{
             position: 'absolute',
             inset: 0,
-            backgroundImage: 'url(/images/voygzpvoygzpvoyg.png)',
+            backgroundImage: `url(${assetUrl('/images/voygzpvoygzpvoyg.png')})`,
             backgroundPosition: 'center center',
             backgroundSize: 'cover',
             transform: 'scale(1.04)',
@@ -94,18 +95,17 @@ const AboutUs: NextPage<AboutUsProps> = () => {
         >
           <motion.div {...pageEnter} style={{ width: '100%' }}>
             <Box sx={{ maxWidth: pxToRem(860) }}>
-              <GradientLine fontSize={pxToRem(36)} title="天然从不是修饰，而是答案。" />
+              <GradientLine fontSize={pxToRem(36)} title="东江泉的故事，从一份对源头的坚持开始" />
               <Tiny
                 sx={{
                   mt: pxToRem(24),
-                  maxWidth: pxToRem(720),
+                  maxWidth: pxToRem(760),
                   color: 'rgba(237, 247, 255, 0.84)',
                   fontSize: { xs: pxToRem(14), md: pxToRem(16) },
-                  lineHeight: 1.5,
+                  lineHeight: 1.7,
                 }}
               >
-                东江泉相信，真正值得进入日常的水，不需要被过度定义。它应当来自天然，保留纯粹，并以稳定可靠的品质，
-                安静地融入每一次饮用体验。
+                对我们来说，东江泉不只是一个饮用水品牌名称，而是一种很直接的选择：从东江源头寻找天然好水，把值得长期信赖的饮用体验，带进更多真实场景。
               </Tiny>
               <FlexAlign
                 sx={{
@@ -114,7 +114,7 @@ const AboutUs: NextPage<AboutUsProps> = () => {
                   flexWrap: 'wrap',
                 }}
               >
-                {['源头寻水', '天然纯粹', '安心日常'].map((item) => (
+                {['品牌起源', '源头选择', '标准验证'].map((item) => (
                   <Box
                     key={item}
                     sx={{
@@ -164,26 +164,25 @@ const AboutUs: NextPage<AboutUsProps> = () => {
                       color: '#10131a',
                     }}
                   >
-                    饮水思源，是东江泉对好水最朴素的理解。
+                    为什么会有东江泉
                   </H2>
                   <Tiny
                     sx={{
                       mt: pxToRem(24),
                       fontSize: { xs: pxToRem(15), md: pxToRem(16) },
-                      lineHeight: 1.5,
+                      lineHeight: 1.75,
                     }}
                   >
-                    我们希望带来的，不只是饮用水本身，而是一种对生活品质更稳定、更克制的坚持。对东江泉来说，天然不是概念，
-                    而是从选水、呈现到日常饮用体验都必须被认真兑现的标准。
+                    东江泉诞生的起点，并不是想再做一个泛泛的水品牌，而是想把对“好水应该从哪里来”的判断做得更明确。我们希望回到源头，从天然水体本身寻找答案，而不是用复杂概念重新包装一瓶水。
                   </Tiny>
                   <Tiny
                     sx={{
                       mt: pxToRem(18),
                       fontSize: { xs: pxToRem(15), md: pxToRem(16) },
-                      lineHeight: 1.5,
+                      lineHeight: 1.75,
                     }}
                   >
-                    因此我们更在意一瓶水是否干净、是否舒服、是否值得被长期信赖。让每一次饮用回归简单，也让简单本身足够有分量。
+                    因为认同东江源头所代表的水源识别、流域记忆与长期信任，我们把“东江”写进品牌名称，也把“泉”作为对天然饮用体验最直接的表达。
                   </Tiny>
                 </Box>
               </Grid>
@@ -204,7 +203,7 @@ const AboutUs: NextPage<AboutUsProps> = () => {
                     },
                   }}
                 >
-                  <img src="/images/xyz.png" alt="东江泉品牌展示" />
+                  <img src={assetUrl('/images/xyz.png')} alt="东江泉品牌展示" />
                 </Box>
               </Grid>
             </Grid>
@@ -235,7 +234,7 @@ const AboutUs: NextPage<AboutUsProps> = () => {
                     },
                   }}
                 >
-                  <img src="/images/p4b861p4b861p4b8.png" alt="东江泉天然水源理念" />
+                  <img src={assetUrl('/images/p4b861p4b861p4b8.png')} alt="东江泉天然水源理念" />
                 </Box>
               </Grid>
               <Grid size={{ xs: 12, md: 6 }}>
@@ -249,27 +248,91 @@ const AboutUs: NextPage<AboutUsProps> = () => {
                       color: '#10131a',
                     }}
                   >
-                    从源头开始选择，才能让纯粹真正被看见。
+                    为什么坚持从东江源头寻找好水
                   </H2>
                   <Tiny
                     sx={{
                       mt: pxToRem(24),
                       fontSize: { xs: pxToRem(15), md: pxToRem(16) },
-                      lineHeight: 1.5,
+                      lineHeight: 1.75,
                     }}
                   >
-                    东江泉坚持从天然水源出发，不使用经过多重工业化改造的城市自来水，也不依赖额外添加人工矿物质来定义口感。
-                    我们更愿意让水保留它原本该有的状态。
+                    我们坚持从天然水源出发，不使用经过多重工业化改造的城市自来水，也不依赖额外添加人工矿物质来定义口感。因为真正值得长期饮用的水，应当首先来自自然本身。
                   </Tiny>
                   <Tiny
                     sx={{
                       mt: pxToRem(18),
                       fontSize: { xs: pxToRem(15), md: pxToRem(16) },
-                      lineHeight: 1.5,
+                      lineHeight: 1.75,
                     }}
                   >
-                    那份来自天然水体中的微量元素、轻盈口感与清甜回味，不需要被重新创造，只需要被妥善保留，再稳定地送到每一次日常饮用中。
+                    当水体经过花岗岩层的自然渗滤，保留下天然矿物层次、轻盈口感与清甜回味时，我们更愿意做的，是把这份本来就存在的纯粹妥善保留下来，再稳定地送到每一次日常饮用里。
                   </Tiny>
+                </Box>
+              </Grid>
+            </Grid>
+          </motion.div>
+
+          <motion.div {...sectionReveal}>
+            <Grid
+              container
+              spacing={pxToRem(36)}
+              sx={{
+                alignItems: 'center',
+                mb: { xs: pxToRem(88), md: pxToRem(160) },
+              }}
+            >
+              <Grid size={{ xs: 12, md: 6 }}>
+                <Box sx={{ maxWidth: pxToRem(520) }}>
+                  <H2
+                    sx={{
+                      mt: pxToRem(16),
+                      fontSize: { xs: pxToRem(24), md: pxToRem(32) },
+                      fontWeight: 500,
+                      lineHeight: 1.2,
+                      color: '#10131a',
+                    }}
+                  >
+                    我们如何理解“值得选择”的一瓶水
+                  </H2>
+                  <Tiny
+                    sx={{
+                      mt: pxToRem(24),
+                      fontSize: { xs: pxToRem(15), md: pxToRem(16) },
+                      lineHeight: 1.75,
+                    }}
+                  >
+                    东江泉不强调夸张的功能叙事，也不试图把饮水变成复杂命题。我们更在意的，是一瓶水是否干净、是否舒服、是否适合进入更高要求的商务、家庭、办公与长期合作场景。
+                  </Tiny>
+                  <Tiny
+                    sx={{
+                      mt: pxToRem(18),
+                      fontSize: { xs: pxToRem(15), md: pxToRem(16) },
+                      lineHeight: 1.75,
+                    }}
+                  >
+                    这种选择标准看起来朴素，却决定了品牌的方向：不是追求概念堆叠，而是让每一次饮用都回到稳定、纯粹、值得重复的体验本身。
+                  </Tiny>
+                </Box>
+              </Grid>
+              <Grid size={{ xs: 12, md: 6 }}>
+                <Box
+                  sx={{
+                    width: '100%',
+                    maxWidth: pxToRem(560),
+                    ml: { md: 'auto' },
+                    borderRadius: pxToRem(28),
+                    overflow: 'hidden',
+                    boxShadow: '0 24px 80px rgba(12, 18, 32, 0.12)',
+                    img: {
+                      display: 'block',
+                      width: '100%',
+                      aspectRatio: '16 / 11',
+                      objectFit: 'cover',
+                    },
+                  }}
+                >
+                  <img src={assetUrl('/images/home/Img4.jpg')} alt="东江泉产品展示" />
                 </Box>
               </Grid>
             </Grid>
@@ -292,7 +355,7 @@ const AboutUs: NextPage<AboutUsProps> = () => {
                   position: 'absolute',
                   inset: 0,
                   background:
-                    'linear-gradient(90deg, rgba(7, 16, 31, 0.94) 0%, rgba(7, 16, 31, 0.78) 48%, rgba(7, 16, 31, 0.58) 100%), url(/images/cert_hero.jpg)',
+                    `linear-gradient(90deg, rgba(7, 16, 31, 0.94) 0%, rgba(7, 16, 31, 0.78) 48%, rgba(7, 16, 31, 0.58) 100%), url(${assetUrl('/images/cert_hero.jpg')})`,
                   backgroundPosition: 'center center',
                   backgroundSize: 'cover',
                 }}
@@ -307,7 +370,6 @@ const AboutUs: NextPage<AboutUsProps> = () => {
               />
               <Box sx={{ position: 'relative', zIndex: 1 }}>
                 <Box sx={{ maxWidth: pxToRem(620) }}>
-
                   <H2
                     sx={{
                       mt: pxToRem(16),
@@ -317,7 +379,7 @@ const AboutUs: NextPage<AboutUsProps> = () => {
                       color: '#f7fbff',
                     }}
                   >
-                    好水值得被信任，也值得被严格验证。
+                    天然值得被尊重，也值得被验证
                   </H2>
                   <Tiny
                     sx={{
@@ -328,8 +390,7 @@ const AboutUs: NextPage<AboutUsProps> = () => {
                       color: 'rgba(237, 247, 255, 0.76)',
                     }}
                   >
-                    在强调天然与纯粹的同时，东江泉同样重视品质控制的稳定性。以香港“正印认证 (STC Tested Mark)”为基础，
-                    我们把看不见的标准，变成每一次饮用都能感受到的安心。
+                    东江泉强调天然与纯粹，但我们同样重视品质控制的稳定性。以香港“正印认证 (STC Tested Mark)”为基础，结合 ISO 22000、HACCP 与 Halal 等体系，让一瓶好水不仅讲得通，也经得起标准、市场与长期合作的检验。
                   </Tiny>
                 </Box>
 

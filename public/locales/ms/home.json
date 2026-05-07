@@ -1,53 +1,116 @@
 {
+  "meta": {
+    "title": "Dongjiangquan"
+  },
   "hero": {
-    "brand": "Dunhua Group",
-    "title": "Perintis Budaya Kreatif Digital"
+    "eyebrow": "Hong Kong Premium Water",
+    "lines": ["Dongjiangquan", "Connected by Water"],
+    "description": "Jenama air minuman premium dari Hong Kong yang diwujudkan sebagai penghormatan kepada memori bekalan air Dongjiang di bandar ini.",
+    "secondary": "Satu ungkapan jangka panjang tentang penghormatan terhadap sumber, ketulenan, dan kualiti yang dapat dirasai dalam setiap botol.",
+    "primaryCta": "Pertanyaan Perniagaan",
+    "secondaryCta": "Kisah Kami"
   },
-  "sections": {
-    "coreIndustries": "Industri Teras",
-    "groupCompanies": "Syarikat Kumpulan",
-    "news": "Berita Terkini"
+  "origin": {
+    "eyebrow": "Brand Origin",
+    "title": "Lebih daripada sekadar nama",
+    "body1": "Bagi Hong Kong, bekalan air Dongjiang adalah sebahagian daripada memori sivik yang nyata dan berkekalan. Bagi Dongjiangquan, Dongjiang bukan sekadar nama sumber, tetapi peringatan tentang asal usul, kepercayaan, dan hubungan.",
+    "body2": "Kami memilih nama ini untuk menghormati ikatan antara Hong Kong dan bekalan air Dongjiang, serta menjadikan idea mengingati sumber sebagai jenama air minuman premium yang boleh dilihat, dipilih, dan dipercayai dari semasa ke semasa.",
+    "highlights": ["Penghormatan kepada bekalan Dongjiang", "Hubungan yang berterusan", "Jenama yang dibina atas asal usul"]
   },
-  "core": {
-    "filmProduction": {
-      "title": "Penerbitan Filem & TV",
-      "description": "Menerbitkan filem, drama dan dokumentari merangkumi pembangunan idea, penulisan skrip, pembiayaan, bajet, penggambaran, pascaproduksi dan promosi."
-    },
-    "culturalTravel": {
-      "title": "Pelancongan Kesejahteraan & Pendidikan",
-      "description": "Menggabungkan pelancongan kesejahteraan dengan pembelajaran pengalaman untuk pelajar dan pengembara melalui aktiviti luar, kajian budaya dan program pemulihan."
-    },
-    "creativeTrade": {
-      "title": "Perdagangan Kreatif",
-      "description": "Menyediakan perkhidmatan hujung ke hujung dalam seni budaya, reka bentuk, media dan kandungan digital termasuk reka bentuk produk, pameran, operasi acara dan pengkomersialan IP."
-    },
-    "artistManagement": {
-      "title": "Pengurusan Artis",
-      "description": "Menyediakan penjenamaan artis, promosi, pengurusan persembahan komersial dan sokongan kontrak melalui kerjasama jangka panjang dengan artis utama."
-    },
-    "industrialInvestment": {
-      "title": "Pelaburan Industri",
-      "description": "Melabur dalam projek pelancongan budaya, bandar kesejahteraan dan jenama pengguna dengan fokus pada pertumbuhan mampan jangka panjang."
-    }
+  "quality": {
+    "eyebrow": "Quality",
+    "title": "Premium bermaksud terbukti",
+    "description": "Asid metasilikat, kawalan logam berat, dan keselamatan mikrobiologi menentukan ketulenan serta konsistensi air ini.",
+    "metrics": [
+      {
+        "value": "8.787 mg/L",
+        "label": "Asid Metasilikat",
+        "description": "Profil mineral semula jadi yang lebih jelas dan pengalaman minum yang lebih halus."
+      },
+      {
+        "value": "Hampir Tidak Dikesan",
+        "label": "Logam Berat",
+        "description": "Plumbum, merkuri, kadmium, dan penunjuk lain kekal jauh di bawah had piawai."
+      },
+      {
+        "value": "Jauh di Bawah Piawai",
+        "label": "Mikrobiologi",
+        "description": "Rekod kestabilan ketulenan, keselamatan, dan konsistensi dari semasa ke semasa."
+      }
+    ]
   },
-  "products": {
-    "water": {
-      "title": "Air Mata Air Semula Jadi Dongjiangquan",
-      "description1": "Sempena ulang tahun ke-60 bekalan air Dongjiang ke Hong Kong pada tahun 2025, Dunhua Group melancarkan jenama Hong Kong, Dongjiangquan Natural Spring Water.",
-      "description2": "Air ini berasal dari kawasan perlindungan di pertemuan hulu Sungai Dongjiang dan Ganjiang di selatan Jiangxi, diambil dari rekahan granit dalam dan kaya secara semula jadi dengan strontium serta asid metasilikat.",
-      "description3": "Disahkan oleh skim Hong Kong Q-Mark, ia sesuai untuk diminum setiap hari, membancuh teh, membuat sup dan memasak.",
-      "feature1": "Diambil 280 meter di bawah tanah di selatan Jiangxi",
-      "feature2": "Mengandungi strontium dan asid metasilikat secara semula jadi",
-      "feature3": "Disahkan oleh skim kualiti Hong Kong Q-Mark"
-    },
-    "byb": {
-      "title": "Bybanx BYB",
-      "description1": "BYB ialah ekosistem aset digital pelbagai fungsi yang menghubungkan aset dunia nyata dengan senario aplikasi Web3 melalui token BYB, NFT utiliti dan inisiatif budaya-hiburan.",
-      "description2": "Berpangkalan secara strategik di Hong Kong, platform ini menekankan pematuhan, ketelusan dan operasi mampan dengan potensi jenama jangka panjang yang kukuh.",
-      "feature1": "Persekitaran dagangan yang selamat dan boleh dipercayai",
-      "feature2": "Analisis pasaran dan ramalan masa nyata",
-      "feature3": "Komuniti pelabur yang aktif",
-      "feature4": "Pendidikan blockchain profesional"
-    }
+  "certifications": {
+    "eyebrow": "Certifications",
+    "title": "Disahkan oleh piawaian. Dipercayai dari semasa ke semasa.",
+    "description": "Daripada tanda yang diiktiraf di Hong Kong hingga sistem kualiti antarabangsa, setiap piawaian mengukuhkan kepercayaan terhadap jenama.",
+    "items": [
+      {
+        "title": "Hong Kong Tested Mark",
+        "description": "Asas kepercayaan yang lebih jelas dan telus melalui piawaian kualiti yang diiktiraf di Hong Kong."
+      },
+      {
+        "title": "ISO 22000 & HACCP",
+        "description": "Pengurusan keselamatan makanan dan kawalan pengeluaran yang konsisten dari sumber hingga hasil akhir."
+      },
+      {
+        "title": "Pensijilan Halal",
+        "description": "Asas yang lebih kukuh untuk akses pasaran yang lebih luas dan pelbagai situasi penggunaan."
+      }
+    ]
+  },
+  "product": {
+    "eyebrow": "Product",
+    "title": "Saiz untuk momen yang berbeza",
+    "description": "Daripada hospitaliti premium hingga runcit harian, setiap format dicipta untuk rentak penggunaan yang berbeza.",
+    "items": [
+      {
+        "title": "350ml",
+        "name": "Hospitaliti & Paparan",
+        "description": "Direka untuk persembahan yang lebih halus, penerimaan premium, dan servis bilik mesyuarat."
+      },
+      {
+        "title": "500ml",
+        "name": "Runcit & Kegunaan Perniagaan",
+        "description": "Format klasik untuk penggunaan harian yang lebih meluas dan senario perniagaan umum."
+      },
+      {
+        "title": "550ml",
+        "name": "Perjalanan & Kegunaan Pejabat",
+        "description": "Format yang lebih besar untuk kerja, mobiliti, dan tempoh minum yang lebih panjang."
+      },
+      {
+        "title": "3.8L",
+        "name": "Bekalan Rumah & Pejabat",
+        "description": "Dibina untuk isi rumah dan tempat kerja yang memerlukan bekalan yang lebih berterusan."
+      }
+    ]
+  },
+  "market": {
+    "eyebrow": "Market Presence",
+    "title": "Dari Hong Kong ke pasaran yang lebih luas",
+    "description": "Dongjiangquan telah memasuki landskap runcit tempatan di Hong Kong dan terus berkembang melalui pengalaman eksport bertahun-tahun serta pelbagai pasaran luar negara.",
+    "proofs": [
+      {
+        "title": "Hong Kong Didahulukan",
+        "description": "Satu ungkapan yang jelas berakar di pasaran tempatan."
+      },
+      {
+        "title": "Jangkauan Antarabangsa",
+        "description": "Berkembang ke lebih banyak pasaran global."
+      },
+      {
+        "title": "Kehadiran Jangka Panjang",
+        "description": "Membina pengiktirafan jenama dari semasa ke semasa."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bawa air minuman premium ke dalam situasi yang lebih bernilai",
+    "description": "Jika anda mencari jenama air minuman yang mempunyai identiti Hong Kong, kedudukan premium, dan potensi kerjasama antarabangsa, kami menjemput anda untuk berhubung dengan pasukan kami.",
+    "button": "Hubungi Pasukan Kami"
+  },
+  "news": {
+    "title": "Kemas kini sumber dan jenama",
+    "description": "Ikuti Dongjiangquan melalui sumber, kualiti, dan ekspresi pasaran."
   }
 }

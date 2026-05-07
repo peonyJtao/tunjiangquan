@@ -11,13 +11,15 @@ import Head from 'next/head';
 import { getI18nProps } from '@/src/lib/i18n.server';
 import { supportedLocales, TranslationMessages } from '@/src/lib/i18n';
 import { useTranslation } from '@/src/lib/i18n.context';
+import { assetUrl } from '@/src/lib/assets';
+import { Tiny } from '@/components/Typography';
 
 interface NewsPageProps {
   articles: NewsArticle[];
   locale: string;
   messages: TranslationMessages;
 }
-
+const HERO_HEIGHT = 460;
 const News: NextPage<NewsPageProps> = ({ articles }) => {
   const { t } = useTranslation('news');
 
@@ -29,9 +31,9 @@ const News: NextPage<NewsPageProps> = ({ articles }) => {
       <Box sx={{
         position: 'relative',
         zIndex: 1,
-        minHeight: pxToRem(460),
+        minHeight: pxToRem(HERO_HEIGHT),
         overflow: 'hidden',
-        background: `url(/images/news.png) top center`,
+        background: `url(${assetUrl('/images/news.png')}) top center`,
         backgroundSize: 'cover',
         mb: pxToRem(90),
         pb: 0,
@@ -52,7 +54,7 @@ const News: NextPage<NewsPageProps> = ({ articles }) => {
           maxWidth: `${pxToRem(maxWidth)} !important`,
           width: '100%',
           height: '100%',
-          minHeight: pxToRem(460),
+          minHeight: pxToRem(HERO_HEIGHT),
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'flex-end',
@@ -60,6 +62,17 @@ const News: NextPage<NewsPageProps> = ({ articles }) => {
           pb: pxToRem(32),
         }}>
           <GradientLine title={t('hero.title')} />
+          <Tiny
+            sx={{
+              mt: pxToRem(12),
+              maxWidth: pxToRem(720),
+              color: 'rgba(237, 247, 255, 0.84)',
+              fontSize: { xs: pxToRem(14), md: pxToRem(16) },
+              lineHeight: 1.5,
+            }}
+          >
+            了解东江泉在水源、品质标准与饮用场景上的持续表达
+          </Tiny>
         </Container>
       </Box>
       <motion.div {...pageEnter}>

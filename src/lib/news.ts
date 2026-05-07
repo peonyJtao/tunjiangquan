@@ -38,7 +38,7 @@ const fallbackLocale: AppLocale = defaultLocale;
 
 const localizedNews: Record<AppLocale, NewsArticle[]> = {
   en: [redotpayEn, waterEn, mountainEn],
-  zh: [redotpayZh, waterZh, mountainZh],
+  zh: [waterZh, mountainZh],
   'zh-TW': [redotpayZhTW, waterZhTW, mountainZhTW],
   ms: [redotpayMs, waterMs, mountainMs],
   ar: [redotpayAr, waterAr, mountainAr],

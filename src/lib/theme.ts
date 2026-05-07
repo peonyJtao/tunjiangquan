@@ -1,7 +1,7 @@
 /*
  * @Date: 2026-04-23 21:03:36
  * @LastEditors: peonyJtao
- * @LastEditTime: 2026-05-05 00:24:36
+ * @LastEditTime: 2026-05-06 21:50:32
  * @FilePath: /东江泉/src/lib/theme.ts
  * @description:
  */
@@ -46,6 +46,7 @@ const getTheme = (direction: Direction) => createTheme({
     primary: 'linear-gradient(110deg,#aafc89,#00f9e5 44%,#0095E6)',
     // @ts-ignore
     secondary: 'linear-gradient(106deg,#aafc89 0,#00f9e5 44%,#0095E6 100%)',
+    tertiary: 'linear-gradient(0deg, rgba(56,200,163,1) 50%, rgba(0,149,230,1) 100%)',
   },
   typography: {
     fontFamily: '"Gilroy"',

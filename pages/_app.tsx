@@ -12,10 +12,9 @@ import '../src/styles/globals.css';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import "../public/font/iconfont.css";
-
-
 import { getDirection, getLocaleFromPath, resolveLocale, TranslationMessages } from '@/src/lib/i18n';
 import { I18nProvider } from '@/src/lib/i18n.context';
+import { assetUrl } from '@/src/lib/assets';
 
 const clientSideEmotionCache = createEmotionCache();
 
@@ -58,7 +57,7 @@ function MyApp(props: MyAppProps) {
     <I18nProvider locale={locale} messages={pageProps.messages ?? {}}>
       <CacheProvider value={activeEmotionCache}>
         <Head>
-          <link rel="icon" href="/images/favicon.ico" />
+          <link rel="icon" href={assetUrl('/images/favicon.ico')} />
           <meta name="viewport" content="initial-scale=1, width=device-width" />
         </Head>
         <ThemeProvider theme={theme}>

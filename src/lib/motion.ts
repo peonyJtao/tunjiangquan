@@ -13,6 +13,69 @@ export const sectionReveal = {
   transition: { duration: 0.55 },
 };
 
+const easeOut = [0.22, 1, 0.36, 1] as const;
+
+export const heroTextReveal = {
+  initial: { opacity: 0, y: 32 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.9, ease: easeOut },
+};
+
+export const heroCtaReveal = {
+  initial: { opacity: 0, y: 20, scale: 0.98 },
+  animate: { opacity: 1, y: 0, scale: 1 },
+  transition: { duration: 0.75, delay: 0.18, ease: easeOut },
+};
+
+export const splitMediaReveal = {
+  initial: { opacity: 0, scale: 1.06 },
+  whileInView: { opacity: 1, scale: 1 },
+  viewport: { once: true, amount: 0.25 },
+  transition: { duration: 0.95, ease: easeOut },
+};
+
+export const splitCopyReveal = {
+  initial: { opacity: 0, x: 36 },
+  whileInView: { opacity: 1, x: 0 },
+  viewport: { once: true, amount: 0.25 },
+  transition: { duration: 0.8, ease: easeOut },
+};
+
+export const statReveal = {
+  initial: { opacity: 0, y: 20, scale: 0.96 },
+  whileInView: { opacity: 1, y: 0, scale: 1 },
+  viewport: { once: true, amount: 0.2 },
+  transition: { duration: 0.65, ease: easeOut },
+};
+
+export const cardFloatReveal = {
+  initial: { opacity: 0, y: 28, scale: 0.97 },
+  whileInView: { opacity: 1, y: 0, scale: 1 },
+  viewport: { once: true, amount: 0.2 },
+  transition: { duration: 0.7, ease: easeOut },
+};
+
+export const productStageReveal = {
+  initial: { opacity: 0, y: 34, scale: 0.94 },
+  whileInView: { opacity: 1, y: 0, scale: 1 },
+  viewport: { once: true, amount: 0.15 },
+  transition: { duration: 0.8, ease: easeOut },
+};
+
+export const proofStripReveal = {
+  initial: { opacity: 0, x: 24 },
+  whileInView: { opacity: 1, x: 0 },
+  viewport: { once: true, amount: 0.2 },
+  transition: { duration: 0.65, ease: easeOut },
+};
+
+export const ctaGlowReveal = {
+  initial: { opacity: 0, scale: 0.985 },
+  whileInView: { opacity: 1, scale: 1 },
+  viewport: { once: true, amount: 0.25 },
+  transition: { duration: 0.85, ease: easeOut },
+};
+
 type MotionLoop = {
   animate: TargetAndTransition;
   transition: Transition;
@@ -77,4 +140,3 @@ export const staggerItem = {
     transition: { duration: 0.45 },
   },
 };
-

@@ -1,51 +1,5 @@
 {
   "hero": {
-    "title": "关于我们"
-  },
-  "intro": "敦华集团有限公司位于香港屯门区，是以国际文化交流为契机，专注服务于文化创意产业的投融资机构。旗下控股公司遍布香港、深圳、北京、赣州等地。公司以影视出品、演艺制作、康旅研学、文创商贸等四大核心文化产业为发展方向，成功投资主办、承办了数百场大型演出项目，出品拍摄多部院线电影，投资并运营文旅康养小镇，创立“东江泉”饮用水品牌。",
-  "labels": {
-    "overview": "概览",
-    "address": "地址",
-    "phone": "电话",
-    "headOffice": "总部"
-  },
-  "stats": {
-    "largePerformanceProjects": "大型演出项目",
-    "theatricalFilmProduction": "院线电影出品",
-    "holdingSubsidiaries": "控股子公司",
-    "brandTrademarks": "品牌商标"
-  },
-  "locations": {
-    "hongkong": {
-      "title": "香港总部",
-      "companies": [
-        "敦华集团有限公司",
-        "东江泉(香港)食品饮料有限公司"
-      ],
-      "address": "香港屯门区伟昌工业中心地下I铺"
-    },
-    "beijing": {
-      "title": "北京",
-      "companies": [
-        "北京星媒经纪"
-      ],
-      "address": "北京市朝阳区劲松南路1号海文大厦600"
-    },
-    "shenzhen": {
-      "title": "深圳",
-      "companies": [
-        "深圳星媒娱乐有限公司",
-        "深圳市红鼓演出有限公司"
-      ],
-      "address": "深圳市盐田区中青路12号海桐居3栋105"
-    },
-    "ruijin": {
-      "title": "瑞金",
-      "companies": [
-        "瑞金市朱坊文化旅游有限公司",
-        "瑞金朱坊康养小镇 / 青花瓷乐团"
-      ],
-      "address": "江西省瑞金市叶坪镇朱坊村红色康养小镇"
-    }
+    "title": "关于东江泉"
   }
 }
